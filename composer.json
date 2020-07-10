@@ -1,0 +1,13 @@
+{
+  "name": "bschilt/drutinybs",
+  "type": "library",
+  "description": "Plugin for Drutiny to provide custom profiles and policies",
+  "keywords": ["drupal", "audit", "drush", "ssh", "report"],
+  "authors": [
+      {"name": "Brian Schilt", "email": "brian.schilt@acquia.com"}
+  ],
+  "require": {
+      "drutiny/acquia": "2.x-dev",
+      "symfony/yaml": "^3.2"
+  },
+}
