@@ -9,5 +9,5 @@
   "require": {
       "drutiny/acquia": "2.x-dev",
       "symfony/yaml": "^3.2"
-  },
+  }
 }
