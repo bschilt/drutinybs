@@ -1,0 +1,14 @@
+title: 'Gigya Connector module should be installed'
+name: 'Drupal-8:gigyaConnectorInstalled'
+class: Drutiny\Audit\Drupal\ModuleEnabled
+description: "The GConnector module integrates Gigya's Customer Identity with a Drupal site."
+type: audit
+tags:
+    - ''
+success: 'The Gigya Connector module is installed.'
+failure: 'The Gigya Connector module is not installed.'
+remediation: "Please add the Gigya Connector module to your Drupal site."
+severity: normal
+parameters:
+  module:
+    default: gigya
